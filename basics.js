@@ -7,6 +7,8 @@ let user = {
 let {name, years: age, isAdmin = false} = user;
 console.log("user");
 
-alert ( name ); //John
-alert ( age ); //30
-alert ( is admin ); //false
+const welcome = function(name,age,gender){
+    return console.log(`my name is (name), I am (age) years old and of gender (gender)`); 
+}
+
+welcome ("Felix Cited", "20", "male");
