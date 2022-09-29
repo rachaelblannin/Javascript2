@@ -12,3 +12,11 @@ const welcome = function(name,age,gender){
 }
 
 welcome ("Felix Cited", "20", "male");
+
+let multiply = (x) => {
+    return (y)=> {
+        return x*y;
+    }
+}
+let sum=multiply(2)
+console.log(sum(3))
