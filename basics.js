@@ -20,3 +20,4 @@ let multiply = (x) => {
 }
 let sum=multiply(2)
 console.log(sum(3))
+
